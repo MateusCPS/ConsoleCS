@@ -12,3 +12,18 @@ void CSMain (uint3 id : SV_DispatchThreadID)
     float r = id.x / (float)resolution;
     Result[id.xy] = float4(r, 1, 0, 1);
 }
+
+#pragma kernel FillCircle
+[numthreads(16,16,1)]
+void FillCircle(uint3 id : SV_DispatchThreadID) {
+    float radius = 30;
+
+    float magnitude = length(float2(id.xy));
+
+        if (magnitude < radius){
+            Result[id.xy] = float4(1, 0, 0, 1);
+        }
+        else {
+            Result[id.xy] = float4(0, 0, 0, 1);
+        }
+}

@@ -19,7 +19,7 @@ public class Render1 : MonoBehaviour
         renderTexture.enableRandomWrite = true;
         renderTexture.Create();
 
-        kernel = cs.FindKernel("CSMain");
+        kernel = cs.FindKernel("FillCircle");
         cs.SetTexture(kernel, "Result", renderTexture);
         cs.SetInt("resolution", textureResolution);
 
@@ -30,6 +30,6 @@ public class Render1 : MonoBehaviour
     void Update()
     {
         if (Input.GetKey(KeyCode.A))
-            cs.Dispatch(kernel, textureResolution/8, textureResolution/8, 1);
+            cs.Dispatch(kernel, textureResolution/16, textureResolution/16, 1);
     }
 }
