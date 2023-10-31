@@ -1,0 +1,21 @@
+Base path: 'C:/Program Files/Unity 2019.4.38f1/Editor/Data', plugins path 'C:/Program Files/Unity 2019.4.38f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(16): syntax error: unexpected token '('
+  error: 1 plat 4 at Texture.compute(16): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(18): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(25): implicit truncation of vector type
+  api=4 insize=822 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(29): integer divides may be much slower, try using uints if possible.
+  api=4 insize=811 outsize=851 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(17): incorrect number of arguments to numeric-type constructor
+  api=4 insize=875 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 2 plat 4 at Texture.compute(20): unrecognized identifier 's'
+  api=4 insize=879 outsize=0 ok=0
+Cmd: shutdown

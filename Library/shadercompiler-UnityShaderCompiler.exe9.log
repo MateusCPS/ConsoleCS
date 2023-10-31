@@ -1,0 +1,14 @@
+Base path: 'C:/Program Files/Unity 2019.4.38f1/Editor/Data', plugins path 'C:/Program Files/Unity 2019.4.38f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=1035 outsize=647 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(22): implicit truncation of vector type
+  api=4 insize=756 outsize=679 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(29): integer divides may be much slower, try using uints if possible.
+  api=4 insize=872 outsize=819 ok=1
+Cmd: shutdown
+
+Quitting shader compiler process

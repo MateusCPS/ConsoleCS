@@ -1,0 +1,35 @@
+Base path: 'C:/Program Files/Unity 2019.4.38f1/Editor/Data', plugins path 'C:/Program Files/Unity 2019.4.38f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 2 plat 4 at (0): Program 'FillCircle2', error X3084: 'numthreads(X,Y,Z)' attribute expected, where 'X,Y,Z' are the dimensions of the thread group
+  api=4 insize=1035 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=766 outsize=679 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=765 outsize=707 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(16): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(29): integer divides may be much slower, try using uints if possible.
+  api=4 insize=803 outsize=851 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(29): integer divides may be much slower, try using uints if possible.
+  api=4 insize=868 outsize=819 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(30): integer divides may be much slower, try using uints if possible.
+  api=4 insize=965 outsize=819 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(19): syntax error: unexpected token 'return'
+  error: 2 plat 4 at Texture.compute(36): undeclared identifier 'id'
+  api=4 insize=1090 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(18): integer divides may be much slower, try using uints if possible.
+  api=4 insize=926 outsize=819 ok=1
+Cmd: shutdown
+
+Quitting shader compiler process

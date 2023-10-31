@@ -321,6 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cs: {fileID: 7200000, guid: 53d6cf1be8fce7e459d8957ff85c582a, type: 3}
   textureResolution: 128
+  cube: {x: 80, y: 80, z: 100, w: 100}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

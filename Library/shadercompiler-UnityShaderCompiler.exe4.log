@@ -1,5 +1,32 @@
 Base path: 'C:/Program Files/Unity 2019.4.38f1/Editor/Data', plugins path 'C:/Program Files/Unity 2019.4.38f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: compileSnippet
-  api=4 type=1 insize=11944 outsize=5738 kw=SHADOWS_SPLIT_SPHERES pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileComputeKernel
+  api=4 insize=702 outsize=647 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at (0): Program 'FillCircle2', error X3084: 'numthreads(X,Y,Z)' attribute expected, where 'X,Y,Z' are the dimensions of the thread group
+  api=4 insize=1033 outsize=0 ok=0
+Cmd: compileComputeKernel
+  api=4 insize=741 outsize=597 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at (0): Did not find shader kernel 'FillCircle2' to compile
+  error: 1 plat 4 at Texture.compute(22): implicit truncation of vector type
+  api=4 insize=757 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): integer divides may be much slower, try using uints if possible.
+  api=4 insize=766 outsize=851 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=764 outsize=719 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=765 outsize=707 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(29): integer divides may be much slower, try using uints if possible.
+  api=4 insize=875 outsize=819 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(29): integer divides may be much slower, try using uints if possible.
+  api=4 insize=875 outsize=819 ok=1
 Cmd: shutdown

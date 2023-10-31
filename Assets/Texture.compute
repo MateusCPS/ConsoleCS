@@ -1,29 +1,38 @@
 ﻿// Each #kernel tells which function to compile; you can have many kernels
 #pragma kernel CSMain
+#pragma kernel FillCircle
 
 // Create a RenderTexture with enableRandomWrite flag and set it
 // with cs.SetTexture
 RWTexture2D<float4> Result;
 int resolution;
+float2 halfSize;
+float4 cube;
 
-[numthreads(8,8,1)]
-void CSMain (uint3 id : SV_DispatchThreadID)
-{
-    float r = id.x / (float)resolution;
-    Result[id.xy] = float4(r, 1, 0, 1);
-}
 
-#pragma kernel FillCircle
 [numthreads(16,16,1)]
 void FillCircle(uint3 id : SV_DispatchThreadID) {
     float radius = 30;
+    int halfRes = resolution >> 1;
 
-    float magnitude = length(float2(id.xy));
+    float magnitude = length(float2(id.xy) - float2(halfRes/2,halfRes/2));
 
-        if (magnitude < radius){
-            Result[id.xy] = float4(1, 0, 0, 1);
-        }
-        else {
-            Result[id.xy] = float4(0, 0, 0, 1);
-        }
+    float r = step(magnitude, radius);
+    Result[id.xy] = float4(r, 0, 0, 1);
+
+}
+
+float inQuad(int2 p) {
+    float hz = step(cube.x, p.x) - step(cube.z, p.x);
+    float vt = step(cube.y, p.y) - step(cube.w, p.y);
+
+    return hz * vt;
+}
+
+[numthreads(16, 16, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    int2 _p = int2(id.x, id.y);
+
+    Result[id.xy] = float4(inQuad(_p), 0, 0, 1);
 }

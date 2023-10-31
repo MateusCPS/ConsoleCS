@@ -1,0 +1,34 @@
+Base path: 'C:/Program Files/Unity 2019.4.38f1/Editor/Data', plugins path 'C:/Program Files/Unity 2019.4.38f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=1033 outsize=647 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at (0): Program 'FillCircle2', error X3084: 'numthreads(X,Y,Z)' attribute expected, where 'X,Y,Z' are the dimensions of the thread group
+  api=4 insize=1020 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): integer divides may be much slower, try using uints if possible.
+  api=4 insize=764 outsize=871 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(18): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(25): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(28): integer divides may be much slower, try using uints if possible.
+  api=4 insize=800 outsize=851 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(29): integer divides may be much slower, try using uints if possible.
+  api=4 insize=811 outsize=851 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(17): incorrect number of arguments to numeric-type constructor
+  api=4 insize=889 outsize=0 ok=0
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(29): integer divides may be much slower, try using uints if possible.
+  api=4 insize=913 outsize=819 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(17): undeclared identifier 'steap'
+  api=4 insize=932 outsize=0 ok=0
+Cmd: shutdown
+
+Quitting shader compiler process

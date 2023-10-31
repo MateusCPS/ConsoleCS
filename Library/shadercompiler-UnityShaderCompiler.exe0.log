@@ -1,15 +1,317 @@
 Base path: 'C:/Program Files/Unity 2019.4.38f1/Editor/Data', plugins path 'C:/Program Files/Unity 2019.4.38f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 Cmd: preprocessCompute
-  insize=719 outsize=718 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=718 outsize=507 ok=1
-Cmd: preprocessCompute
-  insize=744 outsize=745 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=745 outsize=507 ok=1
+  insize=700 outsize=697 ok=0
 Cmd: preprocessCompute
   insize=746 outsize=747 ok=1
 Cmd: compileComputeKernel
   api=4 insize=747 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=746 outsize=747 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=747 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=808 outsize=809 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=809 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=701 outsize=702 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=702 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=701 outsize=702 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=702 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=721 outsize=722 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=722 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=1030 outsize=1033 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1033 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=1032 outsize=1035 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1035 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=1017 outsize=1020 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1020 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=726 outsize=727 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=727 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=740 outsize=741 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=741 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=756 outsize=757 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(22): implicit truncation of vector type
+  api=4 insize=757 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=755 outsize=756 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(22): implicit truncation of vector type
+  api=4 insize=756 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=757 outsize=758 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(22): implicit truncation of vector type
+  api=4 insize=758 outsize=535 ok=1
+Cmd: preprocessCompute
+  insize=742 outsize=743 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(15): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(22): implicit truncation of vector type
+  api=4 insize=743 outsize=481 ok=1
+Cmd: preprocessCompute
+  insize=755 outsize=756 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(22): implicit truncation of vector type
+  api=4 insize=756 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=761 outsize=762 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=762 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=763 outsize=764 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=764 outsize=707 ok=1
+Cmd: preprocessCompute
+  insize=765 outsize=766 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=766 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=763 outsize=764 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=764 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=763 outsize=764 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=764 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=765 outsize=766 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=766 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=763 outsize=764 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=764 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=764 outsize=765 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=765 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=764 outsize=765 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(23): implicit truncation of vector type
+  api=4 insize=765 outsize=507 ok=1
+Cmd: preprocessCompute
+  insize=765 outsize=766 ok=1
+Cmd: preprocessCompute
+  insize=796 outsize=797 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(18): implicit truncation of vector type
+  error: 2 plat 4 at Texture.compute(19): syntax error: unexpected token 'Result'
+  error: 1 plat 4 at Texture.compute(25): implicit truncation of vector type
+  api=4 insize=797 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=797 outsize=798 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(18): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(25): implicit truncation of vector type
+  api=4 insize=798 outsize=595 ok=1
+Cmd: preprocessCompute
+  insize=799 outsize=800 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(18): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(25): implicit truncation of vector type
+  api=4 insize=800 outsize=623 ok=1
+Cmd: preprocessCompute
+  insize=821 outsize=822 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(16): syntax error: unexpected token '('
+  error: 1 plat 4 at Texture.compute(16): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(18): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(25): implicit truncation of vector type
+  api=4 insize=822 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=802 outsize=803 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(16): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=803 outsize=623 ok=1
+Cmd: preprocessCompute
+  insize=806 outsize=807 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(16): syntax error: unexpected token 'id'
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=807 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=808 outsize=809 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=809 outsize=595 ok=1
+Cmd: preprocessCompute
+  insize=810 outsize=811 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=811 outsize=623 ok=1
+Cmd: preprocessCompute
+  insize=810 outsize=811 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=811 outsize=623 ok=1
+Cmd: preprocessCompute
+  insize=810 outsize=811 ok=1
+Cmd: preprocessCompute
+  insize=888 outsize=889 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(17): incorrect number of arguments to numeric-type constructor
+  api=4 insize=889 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=874 outsize=875 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(17): incorrect number of arguments to numeric-type constructor
+  api=4 insize=875 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=877 outsize=878 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(17): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=878 outsize=847 ok=1
+Cmd: preprocessCompute
+  insize=879 outsize=880 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(17): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=880 outsize=867 ok=1
+Cmd: preprocessCompute
+  insize=879 outsize=880 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=880 outsize=703 ok=1
+Cmd: preprocessCompute
+  insize=877 outsize=878 ok=1
+Cmd: preprocessCompute
+  insize=869 outsize=870 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=870 outsize=675 ok=1
+Cmd: preprocessCompute
+  insize=878 outsize=879 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 2 plat 4 at Texture.compute(20): unrecognized identifier 's'
+  api=4 insize=879 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=877 outsize=878 ok=1
+Cmd: preprocessCompute
+  insize=869 outsize=870 ok=1
+Cmd: preprocessCompute
+  insize=869 outsize=870 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=870 outsize=675 ok=1
+Cmd: preprocessCompute
+  insize=873 outsize=874 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(17): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  error: 1 plat 4 at Texture.compute(26): implicit truncation of vector type
+  api=4 insize=874 outsize=847 ok=1
+Cmd: preprocessCompute
+  insize=871 outsize=872 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(17): integer divides may be much slower, try using uints if possible.
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  api=4 insize=872 outsize=847 ok=1
+Cmd: preprocessCompute
+  insize=867 outsize=868 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  api=4 insize=868 outsize=675 ok=1
+Cmd: preprocessCompute
+  insize=874 outsize=875 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  api=4 insize=875 outsize=703 ok=1
+Cmd: preprocessCompute
+  insize=874 outsize=875 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  api=4 insize=875 outsize=703 ok=1
+Cmd: preprocessCompute
+  insize=877 outsize=878 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  api=4 insize=878 outsize=703 ok=1
+Cmd: preprocessCompute
+  insize=421 outsize=420 ok=1
+Cmd: preprocessCompute
+  insize=964 outsize=965 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  api=4 insize=965 outsize=461 ok=1
+Cmd: preprocessCompute
+  insize=912 outsize=913 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  api=4 insize=913 outsize=787 ok=1
+Cmd: preprocessCompute
+  insize=883 outsize=884 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  api=4 insize=884 outsize=703 ok=1
+Cmd: preprocessCompute
+  insize=885 outsize=886 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 4 at Texture.compute(19): implicit truncation of vector type
+  api=4 insize=886 outsize=703 ok=1
+Cmd: preprocessCompute
+  insize=1089 outsize=1090 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(19): syntax error: unexpected token 'return'
+  error: 2 plat 4 at Texture.compute(36): undeclared identifier 'id'
+  api=4 insize=1090 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=852 outsize=853 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(15): 'inQuad': Not all control paths return a value
+  api=4 insize=853 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=931 outsize=932 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(17): undeclared identifier 'steap'
+  api=4 insize=932 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=926 outsize=927 ok=1
+Cmd: compileComputeKernel
+  error: 2 plat 4 at Texture.compute(27): undeclared identifier 'steap'
+  api=4 insize=927 outsize=0 ok=0
+Cmd: preprocessCompute
+  insize=925 outsize=926 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=926 outsize=637 ok=1
 Cmd: shutdown

@@ -9,19 +9,25 @@ public class Render1 : MonoBehaviour
 
 
     RenderTexture renderTexture;
+    public Vector4 cube;
 
     int kernel;
+
+    Vector2 halfSize;
     // Start is called before the first frame update
     void Start()
     {
+        halfSize = new Vector2(textureResolution/2, textureResolution/2);
         // largura, altura e profundidade
         renderTexture = new RenderTexture(textureResolution, textureResolution, 16);
         renderTexture.enableRandomWrite = true;
         renderTexture.Create();
 
-        kernel = cs.FindKernel("FillCircle");
+        kernel = cs.FindKernel("CSMain");
         cs.SetTexture(kernel, "Result", renderTexture);
         cs.SetInt("resolution", textureResolution);
+        cs.SetVector("cube", cube);
+        
 
         this.GetComponent<Renderer>().material.SetTexture("_MainTex", renderTexture);
     }
@@ -32,4 +38,5 @@ public class Render1 : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
             cs.Dispatch(kernel, textureResolution/16, textureResolution/16, 1);
     }
+
 }
